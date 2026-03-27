@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Holtwood+One+SC&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,11 +11,179 @@ section {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background-color: bisque;
 }
 
 .container {
   width: 80%;
   height: 100%;
-  background-color: grey;
+  background-color: white;
   margin: auto;
+}
+
+.title-content {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(0, 124, 10);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.action-handel ul li,
+.aksi-list-barang ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.action-handel {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(224, 153, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-input {
+  display: flex;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+select {
+  width: 50px;
+  height: 35px;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding-left: 8px;
+  background-color: white;
+  outline: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.action-handel input {
+  width: 230px;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  width: 125px;
+  height: 37px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: green;
+  color: white;
+  font-family: sans-serif;
+}
+
+.paper-content {
+  width: 100%;
+  height: 55%;
+  overflow-y: scroll;
+}
+
+.content-list {
+  min-height: 100%;
+  background-image: url("assets/paper.jpg");
+  background-position: center, 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paper-content li {
+  display: flex;
+  justify-content: center;
+}
+
+.paper-content li input {
+  width: 50px;
+  height: 25px;
+}
+
+.paper-content li div {
+  margin: 15px 8px;
+}
+
+.paper-content li div h3 {
+  font-size: 1.5rem;
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.icon-del img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+}
+
+.aksi-list-barang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .aksi-list-barang {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(224, 153, 0);
+}
+
+.footer .footer-pesan {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(0, 124, 10);
+}
+
+.aksi-list-barang .list-input button {
+  background-color: rgb(209, 0, 0);
+}
+
+.aksi-list-barang .list-input select {
+  width: 250px;
+}
+
+.footer-pesan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-pesan h3 {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  font-size: 1.3rem;
+}
+
+span {
+  color: rgb(255, 251, 0);
 }
